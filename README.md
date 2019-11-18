@@ -78,6 +78,7 @@ As mentioned in the overview, we have the ability to enable rosbag recording. Fo
 $ source ./devel/setup.bash
 $ roslaunch turtle_walker turtleWalker.launch record:=enable
 ```
+**Note:** You can also pass the argument **disable** if you wish to not record. Keep in mind that the default settings for the launch file will not record the rosbag, therefore it is not necessary to pass disable.
 
 **Note:** The bag file will not record camera topics (these are related to the RGB-D sensor). The reasoning is because it will drastically increase the bag size file. 
 
