@@ -105,7 +105,7 @@ $ cd ~/catkin_ws/src/turtle_walker/results
 $ rosbag play walker.bag
 ```
 
-From here, you will see all recorded messages displayed on the terminal. To observe the changes in linear and angular velocity of the turtlebot run commands below in a new terminal.
+From here, you will see all info. of recorded messages displayed on the terminal. To observe the changes in linear and angular velocity of the turtlebot run commands below in a new terminal while playing the rosbag.
 
 ```
 $ rostopic echo /mobile_base/commands/velocity `
